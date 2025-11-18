@@ -1,0 +1,5 @@
+from datasets import load_dataset
+
+
+ds_humaneval = load_dataset("openai/openai_humaneval")
+ds_math500 = load_dataset("HuggingFaceH4/MATH-500")
